@@ -1,19 +1,23 @@
 <h1 align="center">ColourFusion</h1>
-
+The code detects prominent colors in an image, matches them to CSS3 color names and hex codes, and saves the results in a text file. It uses OpenCV, NumPy and Webcolors for processing and color mapping.
 
 ## Execution Guide:
 1. Run the following command line in the terminal:
    ```
-
+   pip install opencv-python numpy webcolors matplotlib
    ```
 
-2. 
+2. Enter the path of the image from where you wish to detect the colours
+
+3. Enter the output path for the `.txt` file
+
+4. Upon running the code it displays the colours detected in the `.txt` file
 
 ## Model Prediction:
 
 Input Image:
 
-![image](https://github.com/user-attachments/assets/4e995c47-7578-42b6-8e15-99101df42558)
+![image](https://github.com/user-attachments/assets/34cd0e56-6ad4-4e9b-8fc0-ad76da2fe07a)
 
 Output:
 
